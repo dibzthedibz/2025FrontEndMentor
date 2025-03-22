@@ -18,6 +18,11 @@ body {
     text-align: center;
     margin-top: auto;
 } */
+h1 {
+    font-size: 1.15rem; /* Match the size of your h3 */
+    font-weight: normal; /* Adjust weight if needed */
+    margin: 0; /* Reset margin if necessary */
+}
 
 .full-contain {
     max-width: 20rem;
