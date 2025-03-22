@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* height: auto; */
 }
 
 html, body {
@@ -14,18 +13,15 @@ html, body {
 
 body {
     position: relative;
-    /* height: 100%; */
     background-color: rgba(138, 158, 214, 0.452);
     overflow-x: hidden;
-    /* padding-top: 150px; */
 }
 
 footer {
-    /* flex: 1; */
     position: relative;
     bottom: 0;
     width: 100vw;
-    height: 25px;
+    height: auto;
     background-color: white;
     text-align: center;
     margin-top: 150px;
@@ -47,7 +43,6 @@ img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
-    /* margin: 6px; */
 }
 
 .full-contain p:first-of-type {
@@ -62,8 +57,4 @@ img {
     margin-bottom: 15px;
 }
 
-.attribution { 
-    font-size: 8px; 
-    text-align: center;
- }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
